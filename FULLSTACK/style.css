@@ -1,0 +1,77 @@
+body{
+	/*font-family: MyriadProRegular;*/
+	background-color: gray;
+	font-family: "Tahoma";
+}
+
+/*.block1{
+	position: absolute;
+	left: 137px;
+	top: 384px;
+	color: #EB3B00;
+	text-transform: uppercase;
+}*/
+
+.circle{
+	position: relative;
+	border: 1px solid blue;
+	width: 230px;
+	height: 230px;
+	border-radius: 500px;
+	margin: 88px 0 0 152px
+}
+.circle #circle-center{
+	position: absolute;
+	margin: 15px;
+	width: 202px;
+	height: 202px;
+	background: blue;
+	/*-moz-border: 2px solid blue;*/
+	border-radius: 500px;
+}
+
+#name, #surname, #prof{
+	/*position: absolute;*/
+	font-size: 55px;
+	min-width: 500px;
+	display: table;
+	margin-top: -55px;
+	margin-left: 18px;
+	text-align: center;
+	/*border: 1px solid black;*/
+}
+
+#name{
+	font-size: 50px;
+	margin-top: 25px;
+	color: #EB3B00;
+	text-transform: uppercase;
+}
+
+#surname{
+	font-size: 60px;
+	margin-top: -65px;	
+}
+
+#prof{
+	font-size: 24px;
+	margin-top: -56px;	
+}
+.profile{
+	margin: 76px 0 0 53px;
+}
+.profile img, .profile p, .profile .line{	
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 14px 0 0;
+}
+
+.profile img{
+	width: 74px;
+	height: 74px;
+}
+
+.profile p{
+	font-size: 40px;
+	margin-left: -10px;
+}
